@@ -6,7 +6,9 @@ export default function Search() {
   const [city, setCity] = useState("");
 
   function showWeather(response) {
-    console.log(response.data.main);
+    let city = response.data.name;
+    let temp = Math.round(response.data.main.temp);
+    alert(city + " " + temp + "ºC");
   }
 
   function handleSubmit(event) {
@@ -29,6 +31,7 @@ export default function Search() {
           type="search"
           placeholder="Enter a city"
           className="search-input"
+          required
           onChange={handleInput}
         />
         <input type="submit" value="Search" className="search-btn" />
