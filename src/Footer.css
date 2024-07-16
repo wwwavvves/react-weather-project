@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #909090;
+}
+
+footer a {
+  color: #909090;
+  transition: all 150ms ease-in-out;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: rgb(170, 125, 132);
+}

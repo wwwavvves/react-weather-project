@@ -1,0 +1,44 @@
+.CurrentWeather {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(255, 255, 255, 0.6);
+  align-items: center;
+  margin-top: 30px;
+  padding: 15px 20px 30px;
+}
+
+.city-weather-details h1 {
+  font-size: 38px;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.city-weather-details p {
+  color: rgb(90, 90, 90);
+}
+
+.humidity,
+.wind {
+  color: rgb(170, 125, 132);
+  font-weight: bold;
+}
+
+.current-temperature {
+  display: flex;
+}
+
+.city-temperature-icon {
+  font-size: 50px;
+  align-self: center;
+  /* width: 90px; */
+}
+
+.city-temperature-degrees {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.city-temperature-unit {
+  font-size: 30px;
+}
